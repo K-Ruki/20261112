@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/*-------------------------
+  共通スタイル
+-------------------------*/
+
+/*** 基本設定 ***/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/*** ヘッダー ***/
+header {
+    padding: 20px 5%;
+    background: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #fff;
+}
+
+/*** フッター ***/
+footer {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/*-------------------------
+  HOME
+-------------------------*/
+/*** メインビジュアル ***/
+#home .main-visual {
+    position: relativre;
+    text-align: center;
+}
+
+#home .main-visual .Quest-Name {
+  width: fit-content;
+  margin: auto;
+  text-align: left;
+}
+
+#home .main-visual img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#home main-visual h2 {
+    margin-top: 20px;
+}
+
+/*** コンテンツ ***/
+#home .contents {
+    margin-top: 40px;
+    padding: 30px;
+    background: #f0f0f0;
+}
+
+#home .contents .update-date{
+    color: rgb(255, 0, 0);
+}
+
+#home .contents .new-chara {
+    color: #750bff;
+}
+
+#home .contents .nata {
+    color: #ff1b0b;
+}
+
+#home .contents .ミティヤ {
+    width: 35%;
+}
+
+#home .contents .バレリー {
+    width: 35%;
+}
+
+#home .contents .new-map {
+    width: 35%;
+}
+
+/*-------------------------
+  下層ページ共通
+-------------------------*/
+/*** 基本設定 ***/
+.lower {
+    background: #f5f5f5;
+
+}
+
+/*** ページ見出し ***/
+.lower .page-heading {
+    padding: 30px;
+    background: #dce8ed;
+}
+
+/*** ２カラムレイアウト ***/
+.lower .layout {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.lower article {
+    flex: 1;
+}
+
+.lower article section {
+    margin-bottom: 20px;
+    padding: 25px;
+    background: #fff;
+}
+
+.lower article section:last-of-type {
+    margin-bottom: 0;
+}
+
+.lower aside {
+    width: 250px;
+    padding: 20px;
+    background: #e5e5e5;
+}
+
+/*-------------------------
+  PAGE 01
+-------------------------*/
+/*** このページ固有のスタイル ***/
+#page01 .page-heading h2 {
+    color: #236b83;
+}
+
+#page01 .layout .img-size {
+    width: 60%;
+}
+/*-------------------------
+  PAGE 02
+-------------------------*/
+/*** このページ固有のスタイル ***/
+#page02 .page-heading h2 { 
+    color: tomato;
+}
+
+
+
+/*-------------------------
+  
+-------------------------*/
+/***  ***/
